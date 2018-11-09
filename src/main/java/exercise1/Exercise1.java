@@ -2,14 +2,20 @@ package exercise1;
 
 public class Exercise1 {
 	public Employee buildFixedSalaryEmployee(String name, int fixedSalary) {
-		return null;
+
+		Employee test =new FixedSalaryEmplyee(name,fixedSalary);
+		return test;
 	}
 
 	public Employee buildBaseSalaryPlusCommissionEmployee(String name, int baseSalary, int commission) {
-		return null;
+
+		Employee test2 = new BaseSalaryPlusCommissionEmployee(name, baseSalary,commission);
+			return test2;
 	}
 
 	public Employee buildWorkHourSalaryEmployee(String name, int hourlyRoute) {
-		return null;
+
+		Employee test3 = new WorkHourSalaryEmployee(name, hourlyRoute);
+		return test3;
 	}
 }
